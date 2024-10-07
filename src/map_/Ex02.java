@@ -11,7 +11,7 @@ public class Ex02 {
 		System.out.println(map.containsKey("age"));
 		System.out.println(map.containsValue(100));
 
-		map.put("age", 12345);
+		map.put("age", 12345); // 키 중복 안됨
 		System.out.println("map : " + map);
 
 		map.remove("age");
